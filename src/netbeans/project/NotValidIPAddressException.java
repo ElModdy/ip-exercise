@@ -9,13 +9,9 @@ package netbeans.project;
  *
  * @author usr
  */
-public class NetbeansProject {
+public class NotValidIPAddressException extends Exception {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public NotValidIPAddressException() {
     }
     
 }
