@@ -25,7 +25,7 @@ public class IndirizzoIP {
     }
     
     public IndirizzoIP( String ip) throws NotValidIPAddressException{
-        this(Stream.of(ip.split("."))
+        this(Stream.of(ip.split("\\."))
                     .mapToInt(Integer::parseInt)
                     .toArray());
     }
