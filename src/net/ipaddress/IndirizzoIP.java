@@ -1,4 +1,4 @@
-package netbeans.project;
+package net.ipaddress;
 
 import java.util.Random;
 import java.util.stream.Stream;
